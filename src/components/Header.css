@@ -1,0 +1,48 @@
+
+.img{
+    background-image: url("../assets/img/moon-outline.png");
+    width: 120px;
+    background-repeat: no-repeat;
+    float: right;
+    height: 120px;
+}
+.search{
+    background-image: url("../assets/img/search-outline.png");
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 200px;
+   margin-left:  750px;
+    margin-top: -70px;
+}
+.Enter{
+    display: flex;
+    justify-content: center;
+    margin-left:50px;
+}
+.One{
+    display: flex;
+    justify-content: center;
+}
+.GitHub{
+    display: flex;
+    justify-content: center;
+}
+.input{
+  display: flex;
+    justify-content: center;
+    margin-right: 70px;
+    margin-top: 15px;
+}
+@media (max-width: 700px) {
+    .One{
+        margin-right: 120px;
+    }
+
+}
+@media (min-width: 300px) {
+    .One{
+        margin-right:120px ;
+    }
+
+
+}
